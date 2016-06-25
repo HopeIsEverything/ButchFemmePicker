@@ -1,0 +1,88 @@
+/* Button and text field CSS by Call Me Nick: http://callmenick.com/ */
+
+#slider
+{
+	width:600px;
+	height:10px;
+	margin:15px;
+	
+	background:red;
+	background:linear-gradient(to right, #3F48CC, #3F48CC 40%, #A349A4 40%, #A349A4, #A349A4 60%, #FFAEC9 60%, #FFAEC9); 
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#slider .ui-slider-range
+{
+	background:transparent;
+}
+
+#label
+{
+	margin:10px;
+	
+	position:relative;
+}
+
+body
+{
+	background-color:black;
+	
+	overflow:hidden;
+	
+	font-family: "Roboto Condensed", sans-serif;
+	
+	text-align:center;
+	
+	color:white;
+}
+
+#header, #savetext
+{
+	color:white;
+}
+
+input[type="text"]
+{
+	padding:10px;
+	border:none;
+	border-bottom:solid 2px #c9c9c9;
+	transition:border 0.3s;
+	
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+input[type="text"]:focus
+{
+	border-bottom:solid 2px #969696;
+}
+
+button
+{
+	display:inline-block;
+	margin:10px 0 0 0;
+	padding:5px 15px;
+	font-size:18px;
+	font-family:"Roboto Condensed", sans-serif;
+	appearance:none;
+	box-shadow:none;
+	border-radius:0;
+	
+	color:#A349A4;
+	background:rgba(0, 0, 0, 0);
+	border:solid 5px #A349A4;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+button:focus
+{
+	outline:none;
+}
+
+#loadtext
+{
+	color:#000;
+}
